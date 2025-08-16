@@ -19,7 +19,6 @@
 #	--> sim_eeg_j=R_j*cos(Q_j)+ f(noisy volume conduction matrix,R_j,R_i,Q_j,Q_i)
 #*********************************************************************
 import numpy as np
-import torch
 from scipy.signal import hilbert, butter, filtfilt, welch
 import mne
 import matplotlib.pyplot as plt
